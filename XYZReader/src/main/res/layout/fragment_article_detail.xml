@@ -84,14 +84,13 @@
                     android:lineSpacingMultiplier="@fraction/detail_body_line_spacing_multiplier"
                     android:paddingBottom="@dimen/detail_body_bottom_margin"
                     android:textColor="@color/title_txt_color"
-                    android:textColorLink="@color/article_title"
                     android:textSize="@dimen/detail_body_text_size" />
 
             </com.example.xyzreader.ui.MaxWidthLinearLayout>
         </FrameLayout>
     </com.example.xyzreader.ui.ObservableScrollView>
 
-    <ImageButton
+    <android.support.design.widget.FloatingActionButton
         android:id="@+id/share_fab"
         android:layout_width="@dimen/img_button_width"
         android:layout_height="@dimen/img_button_height"
